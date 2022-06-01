@@ -1,6 +1,6 @@
 *** Settings *** 
 Documentation		Suite of 3 critical API-tests for https://robotframework.org/
-Library				Selenium2Library		implicit_wait=2		run_on_failure=Capture Page Screenshot
+Library		Selenium2Library		implicit_wait=2		run_on_failure=Capture Page Screenshot
 Suite Setup  		log to console			Tester name = Pleshachev_I
 Suite Teardown		Close All Browsers
 
